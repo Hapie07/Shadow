@@ -62,8 +62,6 @@ actions.essences+=/reaping_flames
 actions.essences+=/worldvein_resonance
 actions.essences+=/the_unbound_force
 
-# Sync up Voidform and Power Infusion Cooldowns and of using LotV pool insanity before casting.
-actions.main=void_eruption,if=variable.vf_sync_condition&insanity>=40
 # Make sure you put up SW:P ASAP on the target if Wrathful Faerie isn't active.
 actions.main+=/shadow_word_pain,if=buff.fae_guardians.up&!debuff.wrathful_faerie.up
 actions.main+=/call_action_list,name=cds
